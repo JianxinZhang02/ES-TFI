@@ -11,10 +11,6 @@ Our experiments were conducted with the following configuration:
 
 If you plan to leverage GPU acceleration, please install the appropriate **CUDA** version compatible with your PyTorch installation.
 
-Our implementation is built upon the **DeepCTR-Torch** framework:
-
-DeepCTR-Torch (v0.2.9):  
-https://github.com/shenweichen/DeepCTR-Torch
-
+Our implementation is built upon the [DeepCTR-Torch](https://github.com/shenweichen/DeepCTR-Torch) framework. Install through `pip install -U deepctr-torch`
 
 🚀 **Code coming soon!**  
