@@ -33,3 +33,9 @@ python train.py --dataset qb_video --gpu 0
 ```
 
 The training process will automatically record the evolutionary search process in the `param/` and final results in the `result/` directory.
+
+## Code Availability
+
+This repository currently provides a simplified version of the ES-TFI framework for reference.
+
+The complete implementation will be released after the paper is accepted.
