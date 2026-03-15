@@ -29,7 +29,7 @@ After obtaining the source code and preparing the datasets, you can train the **
 
 ```
 cd main
-python train.py --dataset qb_video
+python train.py --dataset qb_video --gpu 0
 ```
 
 The training process will automatically record the evolutionary search results and final model performance in the log files.
