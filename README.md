@@ -32,4 +32,4 @@ cd main
 python train.py --dataset qb_video --gpu 0
 ```
 
-The training process will automatically record the evolutionary search results and final model performance in the log files.
+The training process will automatically record the evolutionary search process in the `param/` and final results in the `result/` directory.
