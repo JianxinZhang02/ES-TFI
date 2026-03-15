@@ -23,4 +23,13 @@ Please download the datasets from the following official sources:
 
 After downloading the datasets, place them in the corresponding data directory following the project structure.
 
-🚀 **Code coming soon!**  
+## Example Usage
+
+After obtaining the source code and preparing the datasets, you can train the **ES-TFI** model using the following commands:
+
+```
+cd main
+python train.py --dataset qb_video
+```
+
+The training process will automatically record the evolutionary search results and final model performance in the log files.
