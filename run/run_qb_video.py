@@ -37,9 +37,9 @@ def train(params):
     logging.info(params)
     logging.info(General_Config)
 
-    data_train = pd.read_csv('../QB-video/processed/qb_train.csv')
-    data_val = pd.read_csv('../QB-video/processed/qb_val.csv')
-    data_test = pd.read_csv('../QB-video/processed/qb_test.csv')
+    data_train = pd.read_csv('../data/QB-video/qb_train.csv')
+    data_val = pd.read_csv('../data/QB-video/qb_val.csv')
+    data_test = pd.read_csv('../data/QB-video/qb_test.csv')
     data = pd.concat([data_train, data_val, data_test], axis=0)
 
     sparse_feature_columns = [
