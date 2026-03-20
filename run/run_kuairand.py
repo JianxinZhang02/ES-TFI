@@ -46,9 +46,9 @@ def train(params):
     logging.info(params)
     logging.info(General_Config)
 
-    data_train = pd.read_csv('../kuairand/processed/kuairand_train.csv')
-    data_val = pd.read_csv('../kuairand/processed/kuairand_val.csv')
-    data_test = pd.read_csv('../kuairand/processed/kuairand_test.csv')
+    data_train = pd.read_csv('../data/kuairand/kuairand_train.csv')
+    data_val = pd.read_csv('../data/kuairand/kuairand_val.csv')
+    data_test = pd.read_csv('../data/kuairand/kuairand_test.csv')
 
     data = pd.concat([data_train, data_val, data_test], axis=0)
 
