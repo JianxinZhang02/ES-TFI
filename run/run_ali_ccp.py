@@ -45,9 +45,9 @@ def train(params):
     logging.info(params)
     logging.info(General_Config)
 
-    data_train = pd.read_pickle('../Ali-CCP/random_data/train.pkl')
-    data_val = pd.read_pickle('../Ali-CCP/random_data/val.pkl')
-    data_test = pd.read_pickle('../Ali-CCP/random_data/test.pkl')
+    data_train = pd.read_pickle('../data/Ali-CCP/train.pkl')
+    data_val = pd.read_pickle('../data/Ali-CCP/val.pkl')
+    data_test = pd.read_pickle('../data/Ali-CCP/test.pkl')
 
     feat_size = pkl.load(open('../Ali-CCP/random_data/feature_size.pkl', 'rb'))
     sparse_feature_columns = [
